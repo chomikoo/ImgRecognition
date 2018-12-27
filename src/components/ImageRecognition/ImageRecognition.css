@@ -1,0 +1,20 @@
+.img__container {
+  position: relative;
+  margin: 20px auto;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.boundingBox {
+  position: absolute;
+  box-shadow: 0 0 0 3px #cc0202 inset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
